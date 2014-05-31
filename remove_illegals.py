@@ -2,7 +2,7 @@
 
 import sys, getopt
 
-LEGAL = "+-<>[]"
+LEGAL = "+-<>[],."
 
 def remove_illegals(input_file, output_file):
     output_chars = []
