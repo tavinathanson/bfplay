@@ -21,11 +21,11 @@ def main(argv):
     try:
         opts, args = getopt.getopt(argv,"hi:o:",["ifile=","ofile="])
     except getopt.GetoptError:
-        print("test.py -i <input_file> -o <output_file>")
+        print("remove_illegals.py -i <input_file> -o <output_file>")
         sys.exit(2)
     for opt, arg in opts:
         if opt == '-h':
-            print("test.py -i <input_file> -o <output_file>")
+            print("remove_illegals.py -i <input_file> -o <output_file>")
             sys.exit()
         elif opt in ("-i", "--ifile"):
             input_file = arg
