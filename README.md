@@ -1,4 +1,4 @@
 bfplay
 ======
 
-Playing around with the Brainfuck programming language
+Playing around with the BF programming language
